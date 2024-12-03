@@ -9,7 +9,8 @@
     <a-scene embedded arjs>
         <a-light type="ambient" color="#ffffff"></a-light>
         <a-marker preset="hiro">
-            <a-entity gltf-model="acropolis.gltf" scale="0.5 0.5 0.5" position="0 0 0"></a-entity>
+           <!-- <a-entity obj-model="acropolis.gltf" scale="0.5 0.5 0.5" position="0 0 0"></a-entity>-->
+            <a-entity obj-model=”obj: url(tinker.obj); mtl: url(obj.mtl)”><a-entity
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
